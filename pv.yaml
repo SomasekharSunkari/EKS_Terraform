@@ -13,7 +13,7 @@ spec:
     volumeID: vol-012439aa856003590
     fsType: ext4
   persistentVolumeReclaimPolicy: Retain
-  accessModes:
+  accessMode:
     - ReadWriteOnce
   claimRef:
     namespace: default
